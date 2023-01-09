@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(137, 128, 128);
+    margin-top: 0;
+}
+.container {
+    width: 450px;
+    border: 2px solid black;
+    height: 770px;
+    display: block;
+    margin: 22px auto;
+    background: hsl(217, 54%, 11%);
+}
+.min-container {
+    width: 392px;
+    height: 640px;
+    display: block;
+    margin: 65px auto;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+#img{
+    display: block;
+    width: 340px;
+    height: 340px;
+    margin: auto;
+    padding-top: 25px;
+    border-radius: 13px;
+}
+.main {
+    display: block;
+    width: 340px;
+    height: 250px;
+    margin: auto;
+    border: 2px solid none;
+}
+.main > h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
+.main > p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.space {
+    color :hsl(215, 51%, 70%);
+    display: flex;
+    border: 2px solid none;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Outfit', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    position: relative;
+    padding-left: 22px;
+    padding-top: 1px;
+}
+.shift {
+    position: absolute;
+    justify-content: space-between;
+    border: 2px solid none;
+    top: 4px;
+    left: 1px;
+}
+.shift2 {
+    position: absolute;
+    justify-content: space-between;
+    border: 2px solid none;
+    top: 4px;
+    left: 229px;
+}
+.avater{
+    display: flex;
+    border-top: 3px solid hsl(215, 32%, 27%);
+    width: 340px;
+    padding-top:10px;
+}
+.word {
+    border: 3px solid none;
+    width: 200px;
+    padding: 20px 10px 10px 20px;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+.creat {
+    color: hsl(215, 51%, 70%);
+    padding-right: 5px;
+}
+#img2 {
+   margin-top: 9px;
+   width: 40px;
+   height: 40px;
+   border: 2px solid white;
+   border-radius: 50%;
+}
+.attribution {
+    color: white;
+    margin-top: -30px;
+}
